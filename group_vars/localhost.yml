@@ -90,3 +90,7 @@ mas:
   - { name: "WinArchiver Lite", id: "414855915" }
 osx_settings:
   - { domain: "Apple Global Domain", key: NSAutomaticWindowAnimationsEnabled, type: bool, value: false }
+  - { domain: "Apple Global Domain", key: QLPanelAnimationDuration, type: float, value: 0 }
+  - { domain: "Apple Global Domain", key: NSWindowResizeTime, type: float, value: 0.001 }
+  - { domain: "com.apple.finder", key: NSAutomaticWindowAnimationsEnabled, type: bool, value: true }
+  - { domain: "com.apple.dock", key: launchanim, type: bool, value: false }
