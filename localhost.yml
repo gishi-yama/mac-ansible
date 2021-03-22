@@ -5,9 +5,9 @@
   roles:
     - homebrew
     - homebrew_cask
-    #- awscli
-    #- sdkman
-    #- tmux
-    #- dotfiles
-    #- vscode
-     - mas
+    # - awscli
+    # - sdkman
+    # - tmux
+    # - dotfiles
+    # - vscode
+    - mas
