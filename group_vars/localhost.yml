@@ -111,5 +111,5 @@ osx_settings:
   - { domain: "com.apple.desktopservices", key: DSDontWriteUSBStores, type: boolean, value: true }
   - { domain: "com.apple.screencapture", key: disable-shadow, type: boolean, value: true }
   - { domain: "com.apple.universalaccess", key: closeViewHotkeysEnabled, type: boolean, value: true }
-  - { domain: "com.apple.universalaccess", key: reduceMotion, type: boolean, value: true }
-  - { domain: "com.apple.universalaccess", key: reduceTransparency, type: boolean, value: true }
+  - { domain: "com.apple.universalaccess", key: reduceMotion, type: bool, value: true }
+  - { domain: "com.apple.universalaccess", key: reduceTransparency, type: bool, value: true }
