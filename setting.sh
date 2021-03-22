@@ -18,4 +18,5 @@ git clone https://github.com/gishi-yama/mac-ansible.git ${ANSIBLE_PATH}
 
 ## ansible
 cd ${ANSIBLE_PATH}
+git checkout -b onBoard origin/e306
 ansible-playbook -i inventory/localhost localhost.yml
