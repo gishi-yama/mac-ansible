@@ -9,7 +9,7 @@ homebrew_taps:
 homebrew_cask_packages:
   # - name: adobe-creative-cloud
   - name: adoptopenjdk
-  - name: adoptopenjdk@11
+  - name: adoptopenjdk11
   # - name: alfred
   # - name: android-studio
   - name: appcleaner
