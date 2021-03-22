@@ -1,5 +1,6 @@
 - name: Set OSX Defaults
   osx_defaults: >
+    array_add={{ item.array_add|default('no') }}
     domain={{ item.domain }}
     key={{ item.key }}
     type={{ item.type }}

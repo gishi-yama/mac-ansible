@@ -110,6 +110,6 @@ osx_settings:
   - { domain: "com.apple.desktopservices", key: DSDontWriteNetworkStores, type: bool, value: true }
   - { domain: "com.apple.desktopservices", key: DSDontWriteUSBStores, type: bool, value: true }
   - { domain: "com.apple.screencapture", key: disable-shadow, type: bool, value: true }
-  - { domain: "com.apple.universalaccess", key: closeViewHotkeysEnabled, type: bool, value: true }
+  - { domain: "com.apple.universalaccess", array_add: yes, key: closeViewHotkeysEnabled, type: bool, value: true }
   - { domain: "com.apple.universalaccess", key: reduceMotion, type: bool, value: true }
   - { domain: "com.apple.universalaccess", key: reduceTransparency, type: bool, value: true }
