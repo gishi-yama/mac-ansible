@@ -88,3 +88,5 @@ mas:
   - { name: "Unsplash Wallpapers", id: "1284863847" }
   - { name: "The foos", id: "938016211" }
   - { name: "WinArchiver Lite", id: "414855915" }
+osx_settings:
+  - { key: NSAutomaticWindowAnimationsEnabled, type: bool, value: false }
