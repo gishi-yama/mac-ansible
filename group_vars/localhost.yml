@@ -89,4 +89,4 @@ mas:
   - { name: "The foos", id: "938016211" }
   - { name: "WinArchiver Lite", id: "414855915" }
 osx_settings:
-  - { domain: "Apple Global Domain" key: NSAutomaticWindowAnimationsEnabled, type: bool, value: false }
+  - { domain: "Apple Global Domain", key: NSAutomaticWindowAnimationsEnabled, type: bool, value: false }
