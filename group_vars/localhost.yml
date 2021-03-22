@@ -1,75 +1,81 @@
 homebrew_taps:
-  - heroku/brew
   - homebrew/bundle
   - homebrew/cask
   - homebrew/core
-  - heroku/brew
+  - homebrew/cask-versions
+  - homebrew/cask-fonts
+  - AdoptOpenJDK/openjdk
+  #- heroku/brew
 homebrew_cask_packages:
   # - name: adobe-creative-cloud
   - name: adoptopenjdk
-  - name: alfred
-  - name: android-studio
+  - name: adoptopenjdk@11
+  # - name: alfred
+  # - name: android-studio
   - name: appcleaner
   # - name: arduino
   # - name: balenaetcher
-  - name: bartender
-  - name: bitwarden
+  # - name: bartender
+  # - name: bitwarden
   - name: cyberduck
-  - name: db-browser-for-sqlite
-  - name: dbeaver-community
-  - name: deepl
+  # - name: db-browser-for-sqlite
+  # - name: dbeaver-community
+  # - name: deepl
   - name: docker
-  - name: drawio
-  - name: firefox
-  - name: font-droid-sans-mono-nerd-font
+  # - name: drawio
+  # - name: firefox
+  # - name: font-droid-sans-mono-nerd-font
   # - name: fritzing
   - name: google-chrome
-  - name: google-cloud-sdk
-  - name: google-japanese-ime
-  - name: hyperswitch
-  - name: intellij-idea-ce
-  - name: karabiner-elements
-  - name: mono-mdk-for-visual-studio
+  # - name: google-cloud-sdk
+  # - name: google-japanese-ime
+  # - name: hyperswitch
+  # - name: intellij-idea-ce
+  # - name: karabiner-elements
+  # - name: mono-mdk-for-visual-studio
   - name: ngrok
-  - name: notable
-  - name: notion
-  - name: postman
-  - name: rectangle
-  - name: sequel-pro-nightly
-  - name: skitch
-  - name: skype
+  # - name: notable
+  # - name: notion
+  # - name: postman
+  # - name: rectangle
+  # - name: sequel-pro-nightly
+  # - name: skitch
+  # - name: skype
   - name: slack
-  - name: startninja
-  - name: vagrant
-  - name: virtualbox
-  - name: visual-studio
-  - name: visual-studio-code
-  - name: xmind
+  # - name: startninja
+  # - name: vagrant
+  # - name: virtualbox
+  # - name: visual-studio
+  # - name: visual-studio-code
+  # - name: xmind
+  - name: font-jetbrains-mono
+  - name: jetbrains-toolbox
 homebrew_packages:
   - name: ansible
   - name: autoconf
-  - name: awscli
-  - name: bash-completion
-  - name: bitwarden-cli
-  - name: ccat
+  # - name: awscli
+  # - name: bash-completion
+  # - name: bitwarden-cli
+  # - name: ccat
   - name: cmake
   - name: docker
   - name: git
-  - name: go
-  - name: heroku
+  # - name: go
+  # - name: heroku
   - name: hub
-  - name: jq
+  # - name: jq
   - name: mas
-  - name: minikube
-  - name: nkf
-  - name: rustup
+  # - name: minikube
+  # - name: nkf
+  # - name: rustup
   # - name: terraform
-  - name: tfenv
-  - name: tig
-  - name: tmux
-  - name: tree
+  # - name: tfenv
+  # - name: tig
+  # - name: tmux
+  # - name: tree
   - name: vim
   - name: wget
+  - name: zsh-completions
 dot_files:
   - name: bash_profile
   - name: bashrc
