@@ -94,3 +94,6 @@ osx_settings:
   - { domain: "Apple Global Domain", key: NSWindowResizeTime, type: float, value: 0.001 }
   - { domain: "com.apple.finder", key: NSAutomaticWindowAnimationsEnabled, type: bool, value: true }
   - { domain: "com.apple.dock", key: launchanim, type: bool, value: false }
+  - { domain: "com.apple.finder", key: _FXSortFoldersFirst, type: bool, value: false }
+  - { domain: "com.apple.desktopservices", key: DSDontWriteUSBStores, type: bool, value: false }
+  - { domain: "com.apple.screencapture", key: disable-shadow, type: bool, value: fakse }
