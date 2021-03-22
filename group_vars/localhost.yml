@@ -89,27 +89,27 @@ mas:
   - { name: "The foos", id: "938016211" }
   - { name: "WinArchiver Lite", id: "414855915" }
 osx_settings:
-  - { domain: "/Library/Preferences/com.apple.loginwindow", key: AdminHostInfo, type: string, value: "HostName" }
-  - { domain: "Apple Global Domain", key: NSAutomaticWindowAnimationsEnabled, type: boolean, value: false }
+  # - { domain: "/Library/Preferences/com.apple.loginwindow", key: AdminHostInfo, type: string, value: "HostName" }
+  - { domain: "Apple Global Domain", key: NSAutomaticWindowAnimationsEnabled, type: bool, value: false }
   - { domain: "Apple Global Domain", key: QLPanelAnimationDuration, type: float, value: 0 }
   - { domain: "Apple Global Domain", key: NSWindowResizeTime, type: float, value: 0.001 }
-  - { domain: "Apple Global Domain", key: AppleShowAllExtensions, type: boolan, value: true }
+  - { domain: "Apple Global Domain", key: AppleShowAllExtensions, type: bool, value: true }
   - { domain: "com.apple.finder", key: NSAutomaticWindowAnimationsEnabled, type: boolean, value: false }
-  - { domain: "com.apple.finder", key: _FXSortFoldersFirst, type: boolean, value: true }
+  - { domain: "com.apple.finder", key: _FXSortFoldersFirst, type: bool, value: true }
   - { domain: "com.apple.finder", key: FXDefaultSearchScope, type: string, value: "SCcf" }
-  - { domain: "com.apple.finder", key: ShowMountedServersOnDesktop, type: boolean, value: true }
-  - { domain: "com.apple.finder", key: ShowRemovableMediaOnDesktop, type: boolean, value: true }
-  - { domain: "com.apple.finder", key: ShowExternalHardDrivesOnDesktop, type: boolean, value: true }
-  - { domain: "com.apple.finder", key: _FXShowPosixPathInTitle, type: boolean, value: true }
-  - { domain: "com.apple.dock", key: autohide, type: boolean, value: true }
-  - { domain: "com.apple.dock", key: launchanim, type: boolean, value: false }
+  - { domain: "com.apple.finder", key: ShowMountedServersOnDesktop, type: bool, value: true }
+  - { domain: "com.apple.finder", key: ShowRemovableMediaOnDesktop, type: bool, value: true }
+  - { domain: "com.apple.finder", key: ShowExternalHardDrivesOnDesktop, type: bool, value: true }
+  - { domain: "com.apple.finder", key: _FXShowPosixPathInTitle, type: bool, value: true }
+  - { domain: "com.apple.dock", key: autohide, type: bool, value: true }
+  - { domain: "com.apple.dock", key: launchanim, type: bool, value: false }
   - { domain: "com.apple.dock", key: mineffect, type: string, value: "scale" }
-  - { domain: "com.apple.dock", key: workspaces-swoosh-animation-off, type: boolean, value: true }
-  - { domain: "com.apple.dock", key: show-process-indicators, type: boolean, value: true }
-  - { domain: "com.apple.dock", key: show-recents, type: boolean, value: true }
-  - { domain: "com.apple.desktopservices", key: DSDontWriteNetworkStores, type: boolean, value: true }
-  - { domain: "com.apple.desktopservices", key: DSDontWriteUSBStores, type: boolean, value: true }
-  - { domain: "com.apple.screencapture", key: disable-shadow, type: boolean, value: true }
-  - { domain: "com.apple.universalaccess", key: closeViewHotkeysEnabled, type: boolean, value: true }
+  - { domain: "com.apple.dock", key: workspaces-swoosh-animation-off, type: bool, value: true }
+  - { domain: "com.apple.dock", key: show-process-indicators, type: bool, value: true }
+  - { domain: "com.apple.dock", key: show-recents, type: bool, value: true }
+  - { domain: "com.apple.desktopservices", key: DSDontWriteNetworkStores, type: bool, value: true }
+  - { domain: "com.apple.desktopservices", key: DSDontWriteUSBStores, type: bool, value: true }
+  - { domain: "com.apple.screencapture", key: disable-shadow, type: bool, value: true }
+  - { domain: "com.apple.universalaccess", key: closeViewHotkeysEnabled, type: bool, value: true }
   - { domain: "com.apple.universalaccess", key: reduceMotion, type: bool, value: true }
   - { domain: "com.apple.universalaccess", key: reduceTransparency, type: bool, value: true }
