@@ -83,9 +83,9 @@ dot_files:
   - name: tmux.conf
   - name: vimrc
 mas:
-  - { name: "WiFi Explorer", id: "494803304" }
+  # - { name: "WiFi Explorer", id: "494803304" }
   - { name: "The Unarchiver", id: "425424353" }
   - { name: "WinArchiver", id: "413215883" }
   - { name: "Unsplash Wallpapers", id: "1284863847" }
   - { name: "The foos", id: "938016211" }
-
+  - { name: "WinArchiver Lite" id: "414855915" }
