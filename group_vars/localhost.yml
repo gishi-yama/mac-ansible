@@ -88,6 +88,7 @@ mas:
   - { name: "Unsplash Wallpapers", id: "1284863847" }
   - { name: "The foos", id: "938016211" }
   - { name: "WinArchiver Lite", id: "414855915" }
+  - { name: "myAddress", id: "627535992" }
 osx_settings:
   # - { domain: "/Library/Preferences/com.apple.loginwindow", key: AdminHostInfo, type: string, value: "HostName" }
   - { domain: "Apple Global Domain", key: NSAutomaticWindowAnimationsEnabled, type: bool, value: false }
